@@ -31,7 +31,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kbageja/kverse.git"
+    "url": "git+https://github.com/Kbageja/Kverse2.git"
   },
   "keywords": [
     "npm",
@@ -40,7 +40,7 @@
   "author": "kbageja",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Kbageja/kverse/issues"
+    "url": "https://github.com/Kbageja/Kverse2/issues"
   },
-  "homepage": "https://github.com/Kbageja/kverse#readme"
+  "homepage": "https://github.com/Kbageja/Kverse2#readme"
 }
