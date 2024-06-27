@@ -8,10 +8,7 @@ import { Card4 } from './components/cards/Card4'
 function App() {
   return (
     <>
-    <h1>Kverse</h1>
-    <Card4 ></Card4>
-
-    
+    <h1>Kverse</h1>    
     </>
   )
 }
