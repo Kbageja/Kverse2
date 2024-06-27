@@ -1,6 +1,6 @@
 import React from 'react'
 import './Loader1.css'
-function Loader1() {
+const Loader1 =()=> {
   return (
     <div class="spinner">
   <div></div>   

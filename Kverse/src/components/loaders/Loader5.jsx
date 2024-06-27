@@ -1,6 +1,6 @@
 import React from 'react'
 import './Loader5.css'
-function Loader5() {
+const Loader5 = () =>{
   return (
    
   <section class="loader-w">

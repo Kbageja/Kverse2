@@ -1,6 +1,6 @@
 import React from 'react'
 import './Loader4.css'
-function Loader4() {
+const Loader4 = ()=> {
   return (
     <div class="wrapper">
     <div class="circle"></div>
