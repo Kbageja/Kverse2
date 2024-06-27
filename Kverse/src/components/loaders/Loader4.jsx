@@ -1,8 +1,8 @@
 import React from 'react'
 import './Loader4.css'
-const Loader4 = ()=> {
+const Loader4 = ({className})=> {
   return (
-    <div class="wrapper">
+    <div class={`wrapper ${className}`}>
     <div class="circle"></div>
     <div class="circle"></div>
     <div class="circle"></div>
@@ -13,4 +13,4 @@ const Loader4 = ()=> {
   )
 }
 
-export default Loader4
+export  {Loader4}

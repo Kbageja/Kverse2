@@ -1,8 +1,8 @@
 import React from 'react'
 import './Loader1.css'
-const Loader1 =()=> {
+const Loader1 =({className})=> {
   return (
-    <div class="spinner">
+    <div class={`spinner ${className}`}>
   <div></div>   
   <div></div>    
   <div></div>    
@@ -17,4 +17,4 @@ const Loader1 =()=> {
   )
 }
 
-export default Loader1
+export { Loader1};

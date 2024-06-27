@@ -1,10 +1,10 @@
 import React from 'react'
 import './Loader3.css'
-const Loader3 =() =>{
+const Loader3 =({className}) =>{
   return (
     
-<div class="loader-line"></div>
+<div class={`loader-line ${className}`}></div>
   )
 }
 
-export default Loader3
+export {Loader3}

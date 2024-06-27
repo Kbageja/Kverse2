@@ -1,9 +1,9 @@
 import React from 'react'
 import './Loader5.css'
-const Loader5 = () =>{
+const Loader5 = ({className}) =>{
   return (
    
-  <section class="loader-w">
+  <section class={`loader-w ${className}`}>
 
   <div class="slider" style="--i:0">
   </div>
@@ -22,4 +22,4 @@ const Loader5 = () =>{
   )
 }
 
-export default Loader5
+export {Loader5}
