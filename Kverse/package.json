@@ -1,27 +1,29 @@
 {
   "name": "kverse",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
-  "main": "dist/index-DZ525Tce.js",
-  "module": "dist/index-DZ525Tce.js",
+  "main": "dist/assets/index.umd.js",
+  "module": "dist/assets/index.es.js",
+  "types": "dist/assets/index.d.js",
   "exports": {
     ".": {
-      "import": "./dist/index-DZ525Tce.js",
-      "require": "./dist/index-DZ525Tce.js",
-      "styles": "./dist/index-T9zqBN9n.css"
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.js",
+      "styles": "./dist/index.css"
     }
   },
   "files": [
-    "/dist/index-DZ525Tce.js",
-    "/dist/index-T9zqBN9n.css"
+    "/dist/index.es.js",
+    "/dist/index.css"
   ],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build ",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -40,6 +42,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.38",
+    "rollup": "^4.18.0",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1",
     "vite-plugin-dts": "^3.9.1",
