@@ -1,8 +1,24 @@
 {
   "name": "kverse",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "main": "dist/index-DZ525Tce.js",
+  "module": "dist/index-DZ525Tce.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index-DZ525Tce.js",
+      "require": "./dist/index-DZ525Tce.js",
+      "styles": "./dist/index-T9zqBN9n.css"
+    }
+  },
+  "files": [
+    "/dist/index-DZ525Tce.js",
+    "/dist/index-T9zqBN9n.css"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -25,10 +41,11 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1",
+    "vite-plugin-lib-inject-css": "^2.1.1"
   },
   "description": "UI Package",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kbageja/Kverse2.git"
